@@ -1,0 +1,3 @@
+pytz == 2024.2
+aiohttp == 3.10.6
+termcolor == 2.4.0

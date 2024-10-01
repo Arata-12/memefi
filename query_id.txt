@@ -1,0 +1,1 @@
+query_id=AAG5pnAbAwAAALmmcBvZuAZF&user=%7B%22id%22%3A6902818489%2C%22first_name%22%3A%22Nodaba%E2%9D%A4%EF%B8%8F%E2%80%8D%F0%9F%A9%B9%22%2C%22last_name%22%3A%22Zaid%22%2C%22language_code%22%3A%22en%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1727534426&hash=72f6bddf6a25bd61619a0f2f012f7ee8d5fce481f1e454c986c9856965ee25ab
