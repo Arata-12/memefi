@@ -55,7 +55,7 @@ def safe_post(url, headers, json_payload):
         if attempt < retries - 1:  # If this is not the last attempt, wait before trying again
             time.sleep(10)
         else:
-            print(f"❌ {termcolor.colored(" Failed after several attempts. Restarting....", "red")}")
+            print(termcolor.colored("❌  Failed after several attempts. Restarting....", "red"))
             return None
     return None
 
