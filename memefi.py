@@ -49,7 +49,7 @@ def safe_post(url, headers, json_payload):
             if res.status == 200:
                 return json.loads(response_data)  # Return the JSON response if successful
             else:
-                print(f"❌ {termcolor.colored(" Failed with status {res.status}, trying again","red")}")
+                print(termcolor.colored(f"❌ Failed with status {res.status}, trying again","red"))
         except (http.client.HTTPException, TimeoutError) as e:
             print(f"❌ {termcolor.colored(f"Error: {e}, trying again ","red")}")
         if attempt < retries - 1:  # If this is not the last attempt, wait before trying again
